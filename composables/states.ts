@@ -1,0 +1,1 @@
+export const useLogged = () => useState<boolean>('logged', () => false);
